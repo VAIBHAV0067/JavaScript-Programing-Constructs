@@ -15,7 +15,7 @@ console.log("Employee is present");
 
 //UC2
 
-const IS_Part_Time=1;
+/*const IS_Part_Time=1;
 const IS_Full_Time=2;
 const PART_TIME_HOURS=4;
 const FULL_TIME_HOURS=8;
@@ -36,4 +36,33 @@ switch(empCheck)
         empHrs=0;
 }
 let empWage=empHrs*WAGE_PER_HOURS;
+console.log("EmpWage: "+empWage);*/
+
+//UC3
+
+const IS_Part_Time=1;
+const IS_Full_Time=2;
+const PART_TIME_HOURS=4;
+const FULL_TIME_HOURS=8;
+const WAGE_PER_HOURS=20;
+
+let empHrs=0;
+function getWorkingHours(empCheck)
+{
+
+switch(empCheck)
+{
+    case IS_Part_Time;
+        return PART_TIME_HOURS;
+     
+    case IS_Full_Time;
+        return FULL_TIME_HOURS;
+
+    default:
+        returns
+        0;
+}
+}
+let empWage=empHrs*WAGE_PER_HOURS;
+
 console.log("EmpWage: "+empWage);
